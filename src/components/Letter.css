@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+.letter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.letter {
+    background-color: antiquewhite;
+    width: 280px;
+    height: 200px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.302);
+}
+
+.upside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 130px;
+    background-color: #fddbae;
+    border-radius: 5px 5px 200px 200px;
+}
+
+.letter:hover .upside {
+    background-color: antiquewhite;
+}
+
+.letter:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 98%;
+    left: 0;
+    width: 280px;
+    height: 130px;
+    background-color: #fddbae;
+    border-radius: 200px 200px 0 0;
+    animation: open 0.8s ease;
+}
+
+.letter p {
+    font-family: 'Schoolbell', cursive;
+    font-size: 1.2rem;
+    color: black;
+    position: absolute;
+    top: 75%;
+    left: 31%;
+}

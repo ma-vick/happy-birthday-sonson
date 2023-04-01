@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+:root {
+    --bg-color: #FFB3B3;
+    --orange-color: #FFDBA4;
+    --yellow-color: #FFE9AE;
+    --blue-color: #C1EFFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #FFACAC, var(--bg-color));
+}
+
+h2 {
+    font-family: 'Schoolbell', cursive;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 15vh;
+}
