@@ -21,7 +21,6 @@ const cards = [
 function App() {
   return (
     <div className="App">
-      {/* letter */}
       <main className="container">
         <Letter />
         <section id="cards">
