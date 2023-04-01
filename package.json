@@ -1,7 +1,6 @@
 {
   "name": "hb-sonson",
   "private": true,
-  "homepage": "https://ma-vick.github.io/happy-birthday-sonson/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
