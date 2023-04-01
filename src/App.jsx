@@ -38,9 +38,6 @@ function App() {
         </section>
         <HappyBirthday />
       </main>
-      {/* accordion: perdão */}
-      {/* accordion: obrigada */}
-      {/* accordion: pedidos */}
     </div>
   )
 }
